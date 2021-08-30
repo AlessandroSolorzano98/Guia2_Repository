@@ -1,0 +1,12 @@
+create database guia2;
+use guia2;
+drop table usuario;
+create table usuario(
+id_user int not null primary key auto_increment,
+nombre varchar(50),
+apellido varchar(50),
+telefono int,
+fecha_creacion date
+);
+
+select * from  usuario;
